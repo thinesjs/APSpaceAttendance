@@ -18,7 +18,7 @@ pip3 install -r requirements.txt
 
 Add your APSpace credentials in config.ini.
 
-```json
+```python
 [APKEY]
 APKey: tp000000
 APKeyPassword: Tp000000@1234
