@@ -52,7 +52,7 @@ Disable screen timeouts or sleep due to inactivity because the script will stop 
 Setting a lower RETRY_INTERVAL in config.ini may increase battery and memory consumption and plugging in is recommended if applicable.
 
 #### Auto Shutdown
-The program can be configured to automatically shut down the system after successfully updating the attendance by changing ON_COMPLETION to shutdown.
+The program can be configured to automatically shut down the system after successfully updating the attendance by changing ON_COMPLETION to shutdown in config.ini.
 
 ```
 ON_COMPLETION : shutdown
