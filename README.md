@@ -42,9 +42,19 @@ python3 run.py
 The programs needs to be running and Microsoft Teams needs to be open and visible in the foreground. 
 The program will not detect the attendance QR if Microsoft Teams is minimised or hidden behind other application.
 
+#### Code Fetching
+The lecturer has to share their screen which displays a QR code. If ONLY the 3 digit code is displayed WITHOUT the QR code or the QR code is not FULLY visible on screen, the program will not update the attendance. The program does not scan for 'digits' but only QR codes. 
+
 #### Disable timeout or sleep
 Disable screen timeouts or sleep due to inactivity because the script will stop working if the computer goes to sleep or hibernation.
 
 #### Increased Battery Consumption
 Setting a lower RETRY_INTERVAL in config.ini may increase battery and memory consumption and plugging in is recommended if applicable.
 
+#### Auto Shutdown
+The program can be configured to automatically shut down the system after successfully updating the attendance by changing ON_COMPLETION to shutdown.
+
+```
+ON_COMPLETION : shutdown
+```
+Any unsaved or open applications will be forcefully closed and will not be saved. Make sure to save any word documents or important applications to avoid file corruptions.
