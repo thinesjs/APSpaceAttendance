@@ -2,6 +2,7 @@
 # APSpaceAttendance
 
 A automation script to automatically scan and update attendance. The program is purely for educational purposes and real usage is not recommended.
+Supports Windows and Mac OS X.
 
 
 ## Prerequisites
